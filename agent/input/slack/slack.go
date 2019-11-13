@@ -5,7 +5,7 @@ import (
 	"sync"
 
 	"github.com/micro/cli"
-	"github.com/micro/go-micro/agent/input"
+	"github.com/arun-spire/go-micro/agent/input"
 	"github.com/nlopes/slack"
 )
 

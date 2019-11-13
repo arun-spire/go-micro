@@ -3,7 +3,7 @@ package grpc
 import (
 	"context"
 
-	"github.com/micro/go-micro/server"
+	"github.com/arun-spire/go-micro/server"
 	"google.golang.org/grpc"
 )
 

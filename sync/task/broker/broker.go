@@ -11,8 +11,8 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/micro/go-micro/broker"
-	"github.com/micro/go-micro/sync/task"
+	"github.com/arun-spire/go-micro/broker"
+	"github.com/arun-spire/go-micro/sync/task"
 )
 
 type brokerKey struct{}

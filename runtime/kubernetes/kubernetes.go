@@ -9,9 +9,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/micro/go-micro/runtime"
-	"github.com/micro/go-micro/runtime/kubernetes/client"
-	"github.com/micro/go-micro/util/log"
+	"github.com/arun-spire/go-micro/runtime"
+	"github.com/arun-spire/go-micro/runtime/kubernetes/client"
+	"github.com/arun-spire/go-micro/util/log"
 )
 
 type kubernetes struct {

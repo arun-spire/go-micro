@@ -5,7 +5,7 @@ import (
 	"runtime"
 	"time"
 
-	proto "github.com/micro/go-micro/debug/proto"
+	proto "github.com/arun-spire/go-micro/debug/proto"
 )
 
 type Debug struct {

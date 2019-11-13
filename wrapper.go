@@ -3,8 +3,8 @@ package micro
 import (
 	"context"
 
-	"github.com/micro/go-micro/client"
-	"github.com/micro/go-micro/metadata"
+	"github.com/arun-spire/go-micro/client"
+	"github.com/arun-spire/go-micro/metadata"
 )
 
 type clientWrapper struct {

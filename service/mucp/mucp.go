@@ -3,9 +3,9 @@ package mucp
 
 import (
 	// TODO: change to go-micro/service
-	"github.com/micro/go-micro"
-	cmucp "github.com/micro/go-micro/client/mucp"
-	smucp "github.com/micro/go-micro/server/mucp"
+	"github.com/arun-spire/go-micro"
+	cmucp "github.com/arun-spire/go-micro/client/mucp"
+	smucp "github.com/arun-spire/go-micro/server/mucp"
 )
 
 // NewService returns a new mucp service

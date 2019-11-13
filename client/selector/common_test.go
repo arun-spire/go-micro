@@ -1,7 +1,7 @@
 package selector
 
 import (
-	"github.com/micro/go-micro/registry"
+	"github.com/arun-spire/go-micro/registry"
 )
 
 var (

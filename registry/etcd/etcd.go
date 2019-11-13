@@ -15,8 +15,8 @@ import (
 
 	"github.com/coreos/etcd/clientv3"
 	"github.com/coreos/etcd/etcdserver/api/v3rpc/rpctypes"
-	"github.com/micro/go-micro/registry"
-	"github.com/micro/go-micro/util/log"
+	"github.com/arun-spire/go-micro/registry"
+	"github.com/arun-spire/go-micro/util/log"
 	hash "github.com/mitchellh/hashstructure"
 )
 

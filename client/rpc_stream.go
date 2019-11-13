@@ -5,7 +5,7 @@ import (
 	"io"
 	"sync"
 
-	"github.com/micro/go-micro/codec"
+	"github.com/arun-spire/go-micro/codec"
 )
 
 // Implements the streamer interface

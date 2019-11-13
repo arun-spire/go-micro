@@ -4,7 +4,7 @@ import (
 	"net"
 	"testing"
 
-	"github.com/micro/go-micro/transport"
+	"github.com/arun-spire/go-micro/transport"
 )
 
 func expectedPort(t *testing.T, expected string, lsn transport.Listener) {

@@ -5,10 +5,10 @@ import (
 	"strings"
 	"sync"
 
-	packager "github.com/micro/go-micro/runtime/package"
-	"github.com/micro/go-micro/runtime/process"
-	proc "github.com/micro/go-micro/runtime/process/os"
-	"github.com/micro/go-micro/util/log"
+	packager "github.com/arun-spire/go-micro/runtime/package"
+	"github.com/arun-spire/go-micro/runtime/process"
+	proc "github.com/arun-spire/go-micro/runtime/process/os"
+	"github.com/arun-spire/go-micro/util/log"
 )
 
 type service struct {

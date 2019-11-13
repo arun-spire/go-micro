@@ -5,8 +5,8 @@ import (
 	"io"
 	"time"
 
-	"github.com/micro/go-micro/transport"
-	"github.com/micro/go-micro/util/log"
+	"github.com/arun-spire/go-micro/transport"
+	"github.com/arun-spire/go-micro/util/log"
 )
 
 // session is our pseudo session for transport.Socket

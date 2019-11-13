@@ -6,8 +6,8 @@ import (
 	"testing"
 
 	"github.com/micro/cli"
-	"github.com/micro/go-micro/config/cmd"
-	"github.com/micro/go-micro/config/source"
+	"github.com/arun-spire/go-micro/config/cmd"
+	"github.com/arun-spire/go-micro/config/source"
 )
 
 func test(t *testing.T, withContext bool) {

@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	store "github.com/micro/go-micro/store"
-	mem_store "github.com/micro/go-micro/store/memory"
-	mem_lock "github.com/micro/go-micro/sync/lock/memory"
+	store "github.com/arun-spire/go-micro/store"
+	mem_store "github.com/arun-spire/go-micro/store/memory"
+	mem_lock "github.com/arun-spire/go-micro/sync/lock/memory"
 )
 
 func TestIterate(t *testing.T) {

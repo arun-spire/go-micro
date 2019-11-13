@@ -8,8 +8,8 @@ import (
 	"os"
 	"path"
 
-	"github.com/micro/go-micro/runtime/kubernetes/client/api"
-	"github.com/micro/go-micro/util/log"
+	"github.com/arun-spire/go-micro/runtime/kubernetes/client/api"
+	"github.com/arun-spire/go-micro/util/log"
 )
 
 var (

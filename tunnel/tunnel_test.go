@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/micro/go-micro/transport"
+	"github.com/arun-spire/go-micro/transport"
 )
 
 // testAccept will accept connections on the transport, create a new link and tunnel on top

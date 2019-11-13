@@ -1,8 +1,8 @@
 package grpc
 
 import (
-	"github.com/micro/go-micro/codec"
-	"github.com/micro/go-micro/codec/bytes"
+	"github.com/arun-spire/go-micro/codec"
+	"github.com/arun-spire/go-micro/codec/bytes"
 )
 
 type rpcRequest struct {

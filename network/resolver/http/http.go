@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/micro/go-micro/network/resolver"
+	"github.com/arun-spire/go-micro/network/resolver"
 )
 
 // Resolver is a HTTP network resolver

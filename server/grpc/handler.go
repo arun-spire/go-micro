@@ -3,8 +3,8 @@ package grpc
 import (
 	"reflect"
 
-	"github.com/micro/go-micro/registry"
-	"github.com/micro/go-micro/server"
+	"github.com/arun-spire/go-micro/registry"
+	"github.com/arun-spire/go-micro/server"
 )
 
 type rpcHandler struct {

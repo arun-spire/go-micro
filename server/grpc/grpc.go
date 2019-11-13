@@ -14,16 +14,16 @@ import (
 	"sync"
 	"time"
 
-	"github.com/micro/go-micro/broker"
-	"github.com/micro/go-micro/codec"
-	"github.com/micro/go-micro/errors"
-	meta "github.com/micro/go-micro/metadata"
-	"github.com/micro/go-micro/registry"
-	"github.com/micro/go-micro/server"
-	"github.com/micro/go-micro/util/addr"
-	mgrpc "github.com/micro/go-micro/util/grpc"
-	"github.com/micro/go-micro/util/log"
-	mnet "github.com/micro/go-micro/util/net"
+	"github.com/arun-spire/go-micro/broker"
+	"github.com/arun-spire/go-micro/codec"
+	"github.com/arun-spire/go-micro/errors"
+	meta "github.com/arun-spire/go-micro/metadata"
+	"github.com/arun-spire/go-micro/registry"
+	"github.com/arun-spire/go-micro/server"
+	"github.com/arun-spire/go-micro/util/addr"
+	mgrpc "github.com/arun-spire/go-micro/util/grpc"
+	"github.com/arun-spire/go-micro/util/log"
+	mnet "github.com/arun-spire/go-micro/util/net"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
@@ -261,11 +261,7 @@ func (g *grpcServer) handler(srv interface{}, stream grpc.ServerStream) error {
 		r := grpcRouter{handler}
 
 		// serve the actual request using the request router
-		if err := r.ServeRequest(ctx, request, response); err != nil {
-			return status.Errorf(codes.Internal, err.Error())
-		}
-
-		return nil
+		return r.ServeRequest(ctx, request, response)
 	}
 
 	// process the standard request flow

@@ -10,11 +10,11 @@ import (
 	"net/url"
 	"path"
 
-	"github.com/micro/go-micro/client"
-	"github.com/micro/go-micro/config/options"
-	"github.com/micro/go-micro/errors"
-	"github.com/micro/go-micro/proxy"
-	"github.com/micro/go-micro/server"
+	"github.com/arun-spire/go-micro/client"
+	"github.com/arun-spire/go-micro/config/options"
+	"github.com/arun-spire/go-micro/errors"
+	"github.com/arun-spire/go-micro/proxy"
+	"github.com/arun-spire/go-micro/server"
 )
 
 // Proxy will proxy rpc requests as http POST requests. It is a server.Proxy

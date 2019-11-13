@@ -2,7 +2,7 @@
 package packager
 
 import (
-	"github.com/micro/go-micro/runtime/source"
+	"github.com/arun-spire/go-micro/runtime/source"
 )
 
 // Package builds binaries

@@ -6,10 +6,10 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/micro/go-micro/broker"
-	"github.com/micro/go-micro/metadata"
-	"github.com/micro/go-micro/registry"
-	"github.com/micro/go-micro/server"
+	"github.com/arun-spire/go-micro/broker"
+	"github.com/arun-spire/go-micro/metadata"
+	"github.com/arun-spire/go-micro/registry"
+	"github.com/arun-spire/go-micro/server"
 )
 
 const (

@@ -10,17 +10,17 @@ import (
 	"sync"
 	"time"
 
-	"github.com/micro/go-micro/client"
-	"github.com/micro/go-micro/client/selector"
-	"github.com/micro/go-micro/codec"
-	"github.com/micro/go-micro/codec/bytes"
-	"github.com/micro/go-micro/config/options"
-	"github.com/micro/go-micro/errors"
-	"github.com/micro/go-micro/metadata"
-	"github.com/micro/go-micro/proxy"
-	"github.com/micro/go-micro/router"
-	"github.com/micro/go-micro/server"
-	"github.com/micro/go-micro/util/log"
+	"github.com/arun-spire/go-micro/client"
+	"github.com/arun-spire/go-micro/client/selector"
+	"github.com/arun-spire/go-micro/codec"
+	"github.com/arun-spire/go-micro/codec/bytes"
+	"github.com/arun-spire/go-micro/config/options"
+	"github.com/arun-spire/go-micro/errors"
+	"github.com/arun-spire/go-micro/metadata"
+	"github.com/arun-spire/go-micro/proxy"
+	"github.com/arun-spire/go-micro/router"
+	"github.com/arun-spire/go-micro/server"
+	"github.com/arun-spire/go-micro/util/log"
 )
 
 // Proxy will transparently proxy requests to an endpoint.

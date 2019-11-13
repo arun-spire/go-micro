@@ -4,10 +4,10 @@ package network
 import (
 	"time"
 
-	"github.com/micro/go-micro/client"
-	"github.com/micro/go-micro/server"
-	"github.com/micro/go-micro/transport"
-	"github.com/micro/go-micro/tunnel"
+	"github.com/arun-spire/go-micro/client"
+	"github.com/arun-spire/go-micro/server"
+	"github.com/arun-spire/go-micro/transport"
+	"github.com/arun-spire/go-micro/tunnel"
 )
 
 var (

@@ -5,9 +5,9 @@ import (
 	"io"
 	"time"
 
-	"github.com/micro/go-micro/errors"
-	"github.com/micro/go-micro/store"
-	pb "github.com/micro/go-micro/store/service/proto"
+	"github.com/arun-spire/go-micro/errors"
+	"github.com/arun-spire/go-micro/store"
+	pb "github.com/arun-spire/go-micro/store/service/proto"
 )
 
 type Store struct {

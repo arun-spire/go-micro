@@ -4,7 +4,7 @@ package process
 import (
 	"io"
 
-	"github.com/micro/go-micro/runtime/package"
+	"github.com/arun-spire/go-micro/runtime/package"
 )
 
 // Process manages a running process

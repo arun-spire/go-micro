@@ -17,8 +17,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/micro/go-micro/config/options"
-	"github.com/micro/go-micro/store"
+	"github.com/arun-spire/go-micro/config/options"
+	"github.com/arun-spire/go-micro/store"
 	"github.com/pkg/errors"
 )
 

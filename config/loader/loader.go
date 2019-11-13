@@ -4,8 +4,8 @@ package loader
 import (
 	"context"
 
-	"github.com/micro/go-micro/config/reader"
-	"github.com/micro/go-micro/config/source"
+	"github.com/arun-spire/go-micro/config/reader"
+	"github.com/arun-spire/go-micro/config/source"
 )
 
 // Loader manages loading sources

@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/micro/cli"
-	"github.com/micro/go-micro"
-	"github.com/micro/go-micro/registry"
+	"github.com/arun-spire/go-micro"
+	"github.com/arun-spire/go-micro/registry"
 )
 
 type Options struct {

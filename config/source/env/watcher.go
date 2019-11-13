@@ -1,7 +1,7 @@
 package env
 
 import (
-	"github.com/micro/go-micro/config/source"
+	"github.com/arun-spire/go-micro/config/source"
 )
 
 type watcher struct {

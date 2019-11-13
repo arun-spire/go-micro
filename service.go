@@ -7,15 +7,15 @@ import (
 	"sync"
 	"syscall"
 
-	"github.com/micro/go-micro/client"
-	"github.com/micro/go-micro/config/cmd"
-	"github.com/micro/go-micro/debug/handler"
-	"github.com/micro/go-micro/debug/profile"
-	"github.com/micro/go-micro/debug/profile/pprof"
-	"github.com/micro/go-micro/metadata"
-	"github.com/micro/go-micro/plugin"
-	"github.com/micro/go-micro/server"
-	"github.com/micro/go-micro/util/log"
+	"github.com/arun-spire/go-micro/client"
+	"github.com/arun-spire/go-micro/config/cmd"
+	"github.com/arun-spire/go-micro/debug/handler"
+	"github.com/arun-spire/go-micro/debug/profile"
+	"github.com/arun-spire/go-micro/debug/profile/pprof"
+	"github.com/arun-spire/go-micro/metadata"
+	"github.com/arun-spire/go-micro/plugin"
+	"github.com/arun-spire/go-micro/server"
+	"github.com/arun-spire/go-micro/util/log"
 )
 
 type service struct {

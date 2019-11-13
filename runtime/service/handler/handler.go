@@ -3,9 +3,9 @@ package handler
 import (
 	"context"
 
-	"github.com/micro/go-micro/errors"
-	"github.com/micro/go-micro/runtime"
-	pb "github.com/micro/go-micro/runtime/service/proto"
+	"github.com/arun-spire/go-micro/errors"
+	"github.com/arun-spire/go-micro/runtime"
+	pb "github.com/arun-spire/go-micro/runtime/service/proto"
 )
 
 type Runtime struct {

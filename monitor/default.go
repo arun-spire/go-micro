@@ -6,10 +6,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/micro/go-micro/client"
-	pb "github.com/micro/go-micro/debug/proto"
-	"github.com/micro/go-micro/registry"
-	"github.com/micro/go-micro/registry/cache"
+	"github.com/arun-spire/go-micro/client"
+	pb "github.com/arun-spire/go-micro/debug/proto"
+	"github.com/arun-spire/go-micro/registry"
+	"github.com/arun-spire/go-micro/registry/cache"
 )
 
 type monitor struct {

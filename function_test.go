@@ -5,8 +5,8 @@ import (
 	"sync"
 	"testing"
 
-	proto "github.com/micro/go-micro/debug/proto"
-	"github.com/micro/go-micro/registry/memory"
+	proto "github.com/arun-spire/go-micro/debug/proto"
+	"github.com/arun-spire/go-micro/registry/memory"
 )
 
 func TestFunction(t *testing.T) {

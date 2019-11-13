@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/micro/go-micro/client/selector"
+	"github.com/arun-spire/go-micro/client/selector"
 )
 
 // Set the registry cache ttl

@@ -4,8 +4,8 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/micro/go-micro/transport"
-	"github.com/micro/go-micro/transport/quic"
+	"github.com/arun-spire/go-micro/transport"
+	"github.com/arun-spire/go-micro/transport/quic"
 )
 
 var (

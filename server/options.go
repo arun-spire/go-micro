@@ -5,10 +5,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/micro/go-micro/broker"
-	"github.com/micro/go-micro/codec"
-	"github.com/micro/go-micro/registry"
-	"github.com/micro/go-micro/transport"
+	"github.com/arun-spire/go-micro/broker"
+	"github.com/arun-spire/go-micro/codec"
+	"github.com/arun-spire/go-micro/registry"
+	"github.com/arun-spire/go-micro/transport"
 )
 
 type Options struct {

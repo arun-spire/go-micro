@@ -16,8 +16,8 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/micro/go-micro/codec"
-	"github.com/micro/go-micro/util/log"
+	"github.com/arun-spire/go-micro/codec"
+	"github.com/arun-spire/go-micro/util/log"
 )
 
 var (

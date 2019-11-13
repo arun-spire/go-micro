@@ -2,11 +2,11 @@
 package sync
 
 import (
-	"github.com/micro/go-micro/store"
-	"github.com/micro/go-micro/sync/leader"
-	"github.com/micro/go-micro/sync/lock"
-	"github.com/micro/go-micro/sync/task"
-	"github.com/micro/go-micro/sync/time"
+	"github.com/arun-spire/go-micro/store"
+	"github.com/arun-spire/go-micro/sync/leader"
+	"github.com/arun-spire/go-micro/sync/lock"
+	"github.com/arun-spire/go-micro/sync/task"
+	"github.com/arun-spire/go-micro/sync/time"
 )
 
 // Map provides synchronized access to key-value storage.
